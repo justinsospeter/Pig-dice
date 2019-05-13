@@ -1,4 +1,34 @@
-.header {
-    background-color: aqua;
-    height: 100px;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    height: 600px;
+    text-align: center;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/010/772/318/original/nabeel-najeeb-dicegif.gif?1526145052);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.play {
+    height: 200px;
+    padding-top: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
 }
