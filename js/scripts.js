@@ -18,9 +18,16 @@ function Player(turn) {
 Player.prototype.rollone = function() {
     if (this.roll === 1) {
     this.tempscore = 0;
-    alert("Sorry " + this.playerName + ", you rolled a 1! Your turn is over!")
+    alert("Sorry " + this.playerName + ", You rolled a 1! Your turn is done!")
     // this.changeturn();
     } else {
     this.tempscore += this.roll;
     }
+  }
+
+  Player.prototype.hold = function () {
+    this.totalscore += this.tempscore;
+    this.tempscore = 0;
+    // this.changeturn();
+    alert(this.playerName + ", Your turn is done, pass the mouse!");
   }
