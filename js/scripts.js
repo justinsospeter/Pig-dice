@@ -31,3 +31,9 @@ Player.prototype.rollone = function() {
     // this.changeturn();
     alert(this.playerName + ", Your turn is done, pass the mouse!");
   }
+
+  Player.prototype.winnerCheck = function () {
+    if (this.totalscore >= 100) {
+      alert(this.playerName + " You are the winner!");
+    }
+  }
