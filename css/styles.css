@@ -15,10 +15,11 @@ body {
 
 .container-2 {
     height: 400px;
-    background-color: red;
+    background-color: white;
     padding-top: 100px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 170px;
+    margin-left: 170px;
+    margin-bottom: 50px;
 
 }
 
