@@ -32,3 +32,6 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 
 }
+.player1Name-form-control {
+    width: 50px;
+}
