@@ -29,8 +29,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    color: white;
+    margin: auto;
     width: 100%;
+}
+
+.col-md-6 {
+    position: relative;
+    top: 70px;
 }
 
 .play {
