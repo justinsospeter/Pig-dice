@@ -24,7 +24,7 @@ body {
 }
 
 .row {
-    background-image: url(https://www.artisandice.com/wp-content/uploads/2018/07/Adventurers-Dice-in-Alder.jpg);
+    background-image: url(https://2.bp.blogspot.com/-0ETeV5l3juo/Wr6ZttZWxpI/AAAAAAAAPik/nVyHFVAEa7YLgBJQqEAGVYH92hhYUM4EgCKgBGAs/s1600/20180330_135914.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,6 +55,7 @@ h1 {
 
 h2 {
     color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-display: bold;
 
 }
