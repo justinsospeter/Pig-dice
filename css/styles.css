@@ -59,3 +59,11 @@ h2 {
     font-display: bold;
 
 }
+
+h6 {
+    position: relative;
+    top: 80px;
+}
+.footer {
+    height: 200px;
+}
